@@ -31,7 +31,7 @@ const deleteTask = (index) => {
       <h1>To-Do-List</h1>
       <input type="text" value={input} onChange={handleInput}/>
 
-      <button onClick={addTask}> add task</button>
+      <button onClick={addTask}>Add Todo</button>
       
       <ul>
         {
